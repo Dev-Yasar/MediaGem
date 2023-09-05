@@ -1,0 +1,119 @@
+.RecorderScreen{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    background-image: linear-gradient(315deg, #ffffff 0%, #91a6ff 74%);
+    /* background-image: url("https://img.freepik.com/free-vector/tropical-leaves-wallpaper-zoom_52683-41174.jpg?w=740&t=st=1693409851~exp=1693410451~hmac=33294fb0fd1d870b4597b84674aa089cb3d5960f802d661c6a522eced8a596a4"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+.Controlers2{
+    position: relative;
+    width: 60%;
+    height: auto;
+    background-color: #ffffff;
+     
+    overflow: hidden;
+}
+.VideoPreview{
+    position: relative;
+width:100%;
+height: auto;
+display: flex;
+
+
+
+}
+.RecordVideo2{
+    width: 100%;
+    height: auto;
+    background-color: #00bb48;
+}
+.BtnControls{
+    width: 100%;
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.recordBtn{
+    padding: 20px 20px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #ff7878;
+background-image: linear-gradient(315deg, #ff0101 0%, #da0000 74%);
+
+}
+.downloadv{
+    padding: 15px 20px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: #ff7878;
+background-image: linear-gradient(315deg, #00df64 0%, #00bb48 74%);   
+}
+.Modelbackdrop{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.801);
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 5;
+
+}
+.Modal{
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    background-image: url("https://img.freepik.com/free-vector/ethnic-floral-seamless-pattern-background_1035-25451.jpg?w=740&t=st=1693471494~exp=1693472094~hmac=e6de70861fdddbe1c76babbc0aa8573a6b93bc7fa98b3dcf42588b1e67290c47");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.AccessMsg{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.permissionBtn{
+    padding: 15px 20px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+background-image: linear-gradient(315deg, #02bb55 0%, #00bb48 74%);   
+}
+.denyBtn{
+    padding: 15px 20px;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+background-color: #949494;  
+margin-top: 20px;
+}
